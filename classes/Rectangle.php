@@ -13,9 +13,6 @@ class Rectangle extends Figure
      */
     public function __construct(float|int $width, float|int $height)
     {
-        if ($round){
-
-        }
         $this->setWidth($width);
         $this->setHeight($height);
     }
